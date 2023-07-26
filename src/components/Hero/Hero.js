@@ -1,10 +1,17 @@
-import React from 'react';
-import styled from 'styled-components/macro';
+import React from "react";
+import styled from "styled-components/macro";
 
 const Hero = () => {
   return (
     <Wrapper>
-      <HeroImage src="/images/hero-img.jpg" />
+      <HeroImage
+        alt=""
+        src="../../images/hero-img.jpg"
+        srcset="
+        ../../images/hero-img@2x.avif,
+        ../../images/hero-img@3x.avif,
+      "
+      />{" "}
       <Swoop src="/swoop.svg" />
     </Wrapper>
   );
