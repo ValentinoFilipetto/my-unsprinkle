@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <Wrapper>
       <HeroImage
-        alt=""
+        alt="A cat with beautiful blue eyes"
         src="../../images/hero-img.jpg"
         srcset="
         ../../images/hero-img@2x.avif,
